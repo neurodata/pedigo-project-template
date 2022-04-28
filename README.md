@@ -37,7 +37,10 @@
 - Under `Source`, select `Branch: gh-pages`. This may only show up after a few minutes
   when the first GitHub action has completed.
 - Click `Save`.
-- Your documentation should now be available at `http://docs.neurodata.io/<repo_name>/`
+- Your documentation should now be available at `http://docs.neurodata.io/<repo_name>/`.
+- Navigate back to the repo page, and hit the settings gear icon to the right of `About`
+  on the upper right. Paste the URL for your documentation into the `Website` option so
+  that people can easily find your documentation. 
 
 ### Setting up Marp
 - Get Marp for VSCode
