@@ -21,10 +21,19 @@
 - Create a [new repository on GitHub](https://github.com/organizations/neurodata/repositories/new).
 - Give your repo the same name that you did using the template.
 - Do not add any files to the repo when creating it on GitHub.
-- Follow the instructions on GitHub to push to the newly created repo:
+- Follow the instructions on GitHub (roughly) to push to the newly created repo:
+  ```
+    git init
+    git add .
+    git commit -m "initial"
+    git branch -M main
+    git remote add origin https://github.com/neurodata/<repo_name>.git
+    git push -u origin main
+  ```
   
 ### Setting up GitHub Pages
-
+- On GitHub, click on the "Settings" tab
+- 
 
 ### Setting up Overleaf
 *Coming soon*

@@ -5,4 +5,5 @@ parts:
     chapters:
     - file: introduction
   - caption: References
-    chapters: references
+    chapters:
+    - file: references
