@@ -33,7 +33,18 @@
   
 ### Setting up GitHub Pages
 - On GitHub, click on the "Settings" tab
-- 
+
+
+### Setting up Marp
+- Get Marp for VSCode
+- Access the (on Mac it is ``command + shift + P``) and type `Preferences: Open Workspace Settings (JSON)`.
+- Add the following to your `settings.json` to add the included custom themes for Marp:
+  ```
+  "markdown.marp.themes": [
+     "./bilateral-connectome/docs/slides/themes/poster.css",
+     "./bilateral-connectome/docs/slides/themes/slides.css"
+  ],
+  ``` 
 
 ### Setting up Overleaf
 *Coming soon*
