@@ -43,8 +43,8 @@
   that people can easily find your documentation. 
 
 ### Setting up Marp
-- Get Marp for VSCode
-- Access the (on Mac it is ``command + shift + P``) and type `Preferences: Open Workspace Settings (JSON)`.
+- Get [Marp for VSCode](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode).
+- Access the Command Palette (on Mac it is ``Command + Shift + P`` by default) and type `Preferences: Open Workspace Settings (JSON)`.
 - Add the following to your `settings.json` to add the included custom themes for Marp:
   ```
   "markdown.marp.themes": [
