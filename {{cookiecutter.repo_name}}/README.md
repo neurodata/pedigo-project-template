@@ -3,7 +3,7 @@
 [![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](http://docs.neurodata.io/{{cookiecutter.repo_name}}/)
 
 ## Abstract 
-
+*Coming soon*
 
 ## Repo structure 
 - ``.github``: Files specifying how the repo behaves on GitHub.
@@ -26,7 +26,7 @@ reproducible environment for running the code for this project.
 - If you don't have it already, [install Poetry](https://python-poetry.org/docs/#installation) following their linked instructions.
 - Navigate to a directory where you want to store the project, and clone this repo: 
    ```
-   git clone https://github.com/neurodata/bilateral-connectome
+   git clone https://github.com/neurodata/{{cookiecutter.repo_name}}
    ```
 - (TEMPORARY) Clone the sister repository, `giskard`:
   ```
@@ -35,7 +35,7 @@ reproducible environment for running the code for this project.
   - Note: once the code is stable, this will be replaced by an install from PyPI
 - Enter the newly cloned directory:
   ```
-  cd bilateral-connectome
+  cd {{cookiecutter.repo_name}}
   ```
 - Create a Poetry environment:
   - Note: this requires that you have a Python 3.9 installation on your machine. It is
@@ -54,8 +54,8 @@ reproducible environment for running the code for this project.
     ```
   - For me, the output looks like
      ```
-    Creating virtualenv bilateral-connectome in /Users/bpedigo/bilateral-test/bilateral-connectome/.venv
-    Using virtualenv: /Users/bpedigo/bilateral-test/bilateral-connectome/.venv
+    Creating virtualenv {{cookiecutter.repo_name}} in /Users/bpedigo/bilateral-test/{{cookiecutter.repo_name}}/.venv
+    Using virtualenv: /Users/bpedigo/bilateral-test/{{cookiecutter.repo_name}}/.venv
     ```
   
 - To activate the new environment, do 
@@ -74,24 +74,24 @@ reproducible environment for running the code for this project.
 - Make sure your virtual environment from the last section is active.
 - Now you should be able to run any individual python files like normal, for example: 
   ```
-  python ./bilateral-connectome/scripts/er_unmatched_test.py
+  python ./{{cookiecutter.repo_name}}/scripts/er_unmatched_test.py
   ```
 - Instead of running as a Python file, you can also easily convert a Python file to a
   notebook, execute it, and have it included in the documentation folder for rendering
   as a Jupyter Book. To do so, use the `make_notebook.sh` script and pass in the name of 
   the python file (without the `.py` file extension):
   ```
-  sh ./bilateral-connectome/shell/make_notebook er_unmatched_test
+  sh ./{{cookiecutter.repo_name}}/shell/make_notebook er_unmatched_test
   ```
   If you'd like to build that individual notebook and then rebuild the documentation,
   just add the `-b` argument to the same script:
   ```
-  sh ./bilateral-connectome/shell/make_notebook -b er_unmatched_test
+  sh ./{{cookiecutter.repo_name}}/shell/make_notebook -b er_unmatched_test
   ```
 - You can also build and run all notebooks which are essential to the final paper via
   the `make_project.sh` script: 
   ```
-  sh ./bilateral-connectome/shell/make_project.sh
+  sh ./{{cookiecutter.repo_name}}/shell/make_project.sh
   ```
 
 ### Building the documentation Jupyter Book
@@ -99,47 +99,14 @@ The notebooks associated with this project are assembled into a
 [Jupyter Book](https://jupyterbook.org/). 
 - To build the documentation, do:
   ```
-  jb build ./bilateral-connectome/docs
+  jb build ./{{cookiecutter.repo_name}}/docs
   ```
 - You can then view the locally built HTML by pasting the produced link into your
-  browser. For me, the built index is stored at `./bilateral-connectome/docs/_build/html/index.html`
+  browser. For me, the built index is stored at `./{{cookiecutter.repo_name}}/docs/_build/html/index.html`
 
 ### Linking Overleaf and writing the paper
 *Coming soon*
 
 ## Questions about the code or paper 
-Please get in touch! You are welcome to [make an issue](https://github.com/neurodata/bilateral-connectome/issues/new)
-or email me at bpedigo[ at ]jhu[ dot ]edu.
-
-<!-- ## Building the book 
-*Coming soon* -->
-
-<!-- ## Usage
-
-### Building the book
-
-If you'd like to develop on and build the Maggot connectome book, you should:
-
-- Clone this repository and run
-- Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
-- (Recommended) Remove the existing `Maggot connectome/_build/` directory
-- Run `jupyter-book build Maggot connectome/`
-
-A fully-rendered HTML version of the book will be built in `Maggot connectome/_build/html/`.
-
-### Hosting the book
-
-The html version of the book is hosted on the `gh-pages` branch of this repo. A GitHub actions workflow has been created that automatically builds and pushes the book to this branch on a push or pull request to main.
-
-If you wish to disable this automation, you may remove the GitHub actions workflow and build the book manually by:
-
-- Navigating to your local build; and running,
-- `ghp-import -n -p -f Maggot connectome/_build/html`
-
-This will automatically push your build to the `gh-pages` branch. More information on this hosting process can be found [here](https://jupyterbook.org/publish/gh-pages.html#manually-host-your-book-with-github-pages).
-
--->
-
-<!-- ## Credits
-
-This project is created using the excellent open source [Jupyter Book project](https://jupyterbook.org/) and the [executablebooks/cookiecutter-jupyter-book template](https://github.com/executablebooks/cookiecutter-jupyter-book). --> -->
+Please get in touch! You are welcome to [make an issue](https://github.com/neurodata/{{cookiecutter.repo_name}}/issues/new)
+or email me at {{cookiecutter.email}}.

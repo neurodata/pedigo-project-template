@@ -3,5 +3,8 @@
     "repo_name": "maggot-brain",
     "author": "Benjamin D. Pedigo",
     "year": "2022",
-    "email": "bpedigo@jhu.edu"
+    "email": "bpedigo@jhu.edu",
+    "_copy_without_render": [
+        ".github/*"
+    ]
 }
