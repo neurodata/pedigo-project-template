@@ -1,0 +1,93 @@
+/*!
+ * Marp default theme.
+ *
+ * @theme slides
+ *
+ * @auto-scaling true
+ * @size 16:9 1280px 720px
+ * @size 4:3 960px 720px
+ */
+
+@import 'default';
+
+
+section {
+    justify-content: flex-start;
+    --orange: #ed7d31;
+    --left: #66c2a5;
+    --right: #fc8d62;
+    --source: #8da0cb;
+    --target: #e78ac3;
+}
+
+/* REF: https://github.com/yhatt/marp/issues/119 */
+img {
+    background-color: transparent !important;
+}
+
+img[alt~="center"] {
+    display: block;
+    margin: 0 auto;
+}
+
+img[alt~="icon"] {
+    display: inline;
+    margin: 0 0.125em;
+    padding: 0;
+    vertical-align: middle;
+    height: 30px;
+}
+
+img[alt~="person"] {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    text-align: center;
+}
+
+h1 {
+    top: 0px;
+    margin-top: auto;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+.social_icons {
+    padding: 0em;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.minipanels {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(8, 120px);
+    gap: 0.5rem;
+    /* margin: 0 auto; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0.1em;
+    margin-bottom: 0.2em;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.columns2-bl {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+}

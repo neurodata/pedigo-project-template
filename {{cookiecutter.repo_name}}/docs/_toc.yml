@@ -1,0 +1,8 @@
+format: jb-book
+root: abstract
+parts:
+  - caption: Preliminaries
+    chapters:
+    - file: introduction
+  - caption: References
+    chapters: references
