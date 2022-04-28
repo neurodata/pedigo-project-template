@@ -1,9 +1,5 @@
 # {{cookiecutter.project_name}}
 
-## Using this template (delete this section after use)
-- Make sure you have [cookiecutter](https://cookiecutter.readthedocs.io/en/1.7.2/installation.html) installed
-- cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git
-
 [![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](http://docs.neurodata.io/{{cookiecutter.repo_name}}/)
 
 ## Abstract 
