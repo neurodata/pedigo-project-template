@@ -42,8 +42,8 @@
   on the upper right. Paste the URL for your documentation into the `Website` option so
   that people can easily find your documentation. 
 
-### Setting up Marp
-- Get [Marp for VSCode](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode).
+### Setting up Marp (VS Code instructions)
+- Get [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode).
 - Access the Command Palette (on Mac it is ``Command + Shift + P`` by default) and type `Preferences: Open Workspace Settings (JSON)`.
 - Add the following to your `settings.json` to add the included custom themes for Marp:
   ```
@@ -55,3 +55,8 @@
 
 ### Setting up Overleaf
 *Coming soon*
+
+### Using the repository
+Guides to setting up an environment, running the code and using the shell scripts in
+your repo, and building the documentation are provided within the repo created by
+`cookiecutter` so that users of your repository can see them, too.
