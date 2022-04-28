@@ -5,5 +5,9 @@ parts:
     chapters:
     - file: introduction
   - caption: References
-    chapters:
+    chapters: 
     - file: references
+  - caption: Slides
+    chapters:
+    - url: https://docs.neurodata.io/{{cookiecutter.repo_name}}/example.pdf
+      title: Example

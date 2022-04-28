@@ -32,8 +32,12 @@
   ```
   
 ### Setting up GitHub Pages
-- On GitHub, click on the "Settings" tab
-
+- On GitHub, click on the "Settings" tab.
+- Click on the `Pages` option.
+- Under `Source`, select `Branch: gh-pages`. This may only show up after a few minutes
+  when the first GitHub action has completed.
+- Click `Save`.
+- Your documentation should now be available at `http://docs.neurodata.io/<repo_name>/`
 
 ### Setting up Marp
 - Get Marp for VSCode
