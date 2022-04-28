@@ -45,13 +45,13 @@
 ### Setting up Marp (VS Code instructions)
 - Get [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode).
 - Access the Command Palette (on Mac it is ``Command + Shift + P`` by default) and type `Preferences: Open Workspace Settings (JSON)`.
-- Add the following to your `settings.json` to add the included custom themes for Marp:
+- Add the paths for the Marp themes to your `settings.json`. For me this looks like:
   ```
   "markdown.marp.themes": [
-     "./bilateral-connectome/docs/slides/themes/poster.css",
-     "./bilateral-connectome/docs/slides/themes/slides.css"
+     "./<repo_name>/docs/slides/themes/poster.css",
+     "./<repo_name>/docs/slides/themes/slides.css"
   ],
-  ``` 
+  ```
 
 ### Setting up Overleaf
 *Coming soon*
