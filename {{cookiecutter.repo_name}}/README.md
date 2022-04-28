@@ -104,8 +104,6 @@ The notebooks associated with this project are assembled into a
 - You can then view the locally built HTML by pasting the produced link into your
   browser. For me, the built index is stored at `./{{cookiecutter.repo_name}}/docs/_build/html/index.html`
 
-### Linking Overleaf and writing the paper
-*Coming soon*
 
 ## Questions about the code or paper 
 Please get in touch! You are welcome to [make an issue](https://github.com/neurodata/{{cookiecutter.repo_name}}/issues/new)
