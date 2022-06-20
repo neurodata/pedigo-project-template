@@ -13,7 +13,8 @@
 ## Instructions
 ### Using cookiecutter
 - Make sure you have [cookiecutter](https://cookiecutter.readthedocs.io/en/1.7.2/installation.html) installed.
-- From the command line, run ```cookiecutter https://github.com/neurodata/pedigo-project-template.git```.
+- From the command line, run 
+  ```cookiecutter https://github.com/neurodata/pedigo-project-template.git```
 - Answer each of the prompts from the command line.
 - Your new project should now be created!
 
