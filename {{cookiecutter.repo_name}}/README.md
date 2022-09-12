@@ -57,6 +57,10 @@ reproducible environment for running the code for this project.
     Creating virtualenv {{cookiecutter.repo_name}} in /Users/bpedigo/bilateral-test/{{cookiecutter.repo_name}}/.venv
     Using virtualenv: /Users/bpedigo/bilateral-test/{{cookiecutter.repo_name}}/.venv
     ```
+  - To install dependencies, do
+    ```
+    poetry install --with dev-dependencies
+    ```
   
 - To activate the new environment, do 
   ```
