@@ -23,7 +23,7 @@ html:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/neurodata/{{cookiecutter.repo_name}}
+  url: https://github.com/{{cookiecutter.org_user}}/{{cookiecutter.repo_name}}
   path_to_book: {{cookiecutter.repo_name}}
   branch: main
 
