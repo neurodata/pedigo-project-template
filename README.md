@@ -40,6 +40,7 @@
 - Click on the `Pages` option.
 - Under `Source`, select `Branch: gh-pages`. This may only show up after a few minutes
   when the first GitHub action has completed.
+      - You may also need to go to `Settings -> Actrions -> Workflow permissions` and set `Read and write permissions`.
 - Click `Save`.
 - Your documentation should now be available at `http://docs.neurodata.io/<repo_name>/`.
 - Navigate back to the repo page, and hit the settings gear icon to the right of `About`
