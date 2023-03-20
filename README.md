@@ -5,10 +5,11 @@
 - [Poetry](https://python-poetry.org/) for environment specification.
 - [Jupyter Book](https://jupyterbook.org/en/stable/intro.html) hosted on [GitHub Pages](https://pages.github.com/) for documentation.
 - [Marp](https://marp.app/) for creating slides and posters.
+- [Overleaf](https://www.overleaf.com/) linking to facilitate writing a manuscript.
 - Shell scripts to facilitate: 
-   - Conversion of Python scripts to Jupyter Notebooks.
+   - Conversion of Python scripts to Jupyter Notebooks, Jupyter Books, Marp slides.
    - Running a collection of Python files to build an entire project.
-   - Copying generated figures to an Overleaf repository.
+   - Copying generated figures and variables to an Overleaf repository.
 
 ## Instructions
 ### Using cookiecutter
@@ -39,6 +40,7 @@
 - Click on the `Pages` option.
 - Under `Source`, select `Branch: gh-pages`. This may only show up after a few minutes
   when the first GitHub action has completed.
+  - You may also need to go to `Settings -> Actrions -> Workflow permissions` and set `Read and write permissions`.
 - Click `Save`.
 - Your documentation should now be available at `http://docs.neurodata.io/<repo_name>/`.
 - Navigate back to the repo page, and hit the settings gear icon to the right of `About`
